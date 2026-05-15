@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 int cmp_asc(const void* a, const void* b){
-    return(*(int*)a - *(int*)b);
+    return(*(const int*)a - *(const int*)b);
 }
 
 int cmp_desc(const void* a, const void* b){
-    return(*(int*)b - *(int*)a);
+    return(*(const int*)b - *(const int*)a);
 }
 
 void print_arr(int *arr, int size){
