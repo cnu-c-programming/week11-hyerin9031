@@ -8,7 +8,7 @@ void print_state(enum State s){
             printf("State: IDLE\n");
             break;
         case RUNNING:
-            printf("State: RUNNUNG\n");
+            printf("State: RUNNING\n");
             break;
     }
 }
